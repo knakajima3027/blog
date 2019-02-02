@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. https://appernetic.github.io/
-baseurl = "http://knakajima3027.github.io/"
+baseurl = "https://knakajima3027.github.io/"
 
 # Remark if you want to disable multilingual support.
 DefaultContentLanguage = "ja"
@@ -28,7 +28,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "shortname"
+#disqusShortname = "shortname"
 
 
 [permalinks]
@@ -49,14 +49,14 @@ email = "yourname@example.com"
 
 [params.popover]
 # This is a highly configurable popover form.
-enablepopover = true #enable or disable popover: true/false.
+enablepopover = false #enable or disable popover: true/false.
 posturl = "https://zapier.com/hooks/catch/1227563/" # Your zapier post hook.
 headerimage = "//placehold.it/1000x600"
 expirecookie = 5 #show it again after number of days to visitors that has not subscribed.
 cookiename = "mycookie1" #give the cookie a unique name variable (avoid spaces and strange characters).
 signupheader = "Join Our Newsletter"
 showmodaltimeout = 10000 #show popover modal after time interval in milliseconds.
-mouseleave = true #show popover when mouse leaves window: true/false.
+mouseleave = false #show popover when mouse leaves window: true/false.
 modalsize = "" #lg or sm. Empty is md. If phone is detected lg is used.
 imagedescription = "Placeholder image for this popover modal optin form"
 signuptext = "Signup today for free and be the first to get notified on new updates."
@@ -64,7 +64,7 @@ inputplaceholder = "Enter your email"
 submitbutton = "Subscribe"
 successmessage = "Thanks for your subscription!"
 errormessage = "Submitting form failed!"
-optin = true #opt-in: true/false
+optin = false #opt-in: true/false
 
 [params]
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
@@ -76,12 +76,12 @@ bootswatchtheme = "cosmo"
 # menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
 switchlang = false
 # You can use markdown here.
-#BrandImage = "http://blog.appernetic.io/images/apperneticlogo.png" #top header brand image.
-#brand = "kNakajima" # brand image alt text.
+BrandImage = "" #top header brand image.
+brand = "kNakajima" # brand image alt text.
 #topline = "few words about your site"
 #footline = "code with <i class='fa fa-heart'></i>"
 
-customJS = []
+#customJS = []
 customCSS = ["/css/style_custom.css"]
 
 # Text for the top menu link, which goes to the root URL for the site.
@@ -138,9 +138,9 @@ extensionmask = []
 
 [Languages]
 [Languages.ja]
-languageCode = "en"
+languageCode = "ja"
 weight = 1
-copyright = "(c) 2016 Copyright my blog"
+copyright = "(c) 2019 All rights reserved."
 title = "Kouhei Nakajima" # Site title
 
 [[Languages.ja.menu.main]]

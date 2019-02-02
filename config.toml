@@ -144,10 +144,10 @@ copyright = "(c) 2019 All rights reserved."
 title = "Kouhei Nakajima" # Site title
 
 [[Languages.ja.menu.main]]
-name = "About"
+name = "About Me"
 weight = 1
 identifier = ""
-url = "https://appernetic.io/app/#/about"
+url = "/about/"
 #pre = "<i class='fa fa-road'></i>"
 
 [[Languages.ja.menu.main]]

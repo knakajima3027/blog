@@ -155,7 +155,7 @@ name = "Blog"
 pre = ""
 weight = 2
 identifier = "post"
-url = "/post/"
+url = "/"
 
 
 [[Languages.ja.menu.footer]] # add  links to the bottom right corner.

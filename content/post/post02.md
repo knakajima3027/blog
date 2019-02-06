@@ -10,9 +10,9 @@ title: ブログ開設まで
 
 </br>
 
-GitHubでブログを管理するにあたり、jekyllを使おうと思ったのですが、Hugoで作成しました。
+GitHubでブログを管理するにあたり、jekyllを使おうと思ったのですが、最終的にHugoで作成しました。
 
-理由は、jekyllについて調べていた時に、Hugoの方が良いという情報を多く目にしたためです。
+理由としては、jekyllについて調べていたときに、Hugoの方が良いという情報を多く目にしたためです。
 
 ブログ開設までは、以下のページを参考にさせていただきました。
 
@@ -24,6 +24,6 @@ GitHubでブログを管理するにあたり、jekyllを使おうと思った�
 
 ### テーマ  
 <br>
-テーマは[Hugo Themes](https://themes.gohugo.io)の中から見つけた、[hugo-bootstrap-premium](https://github.com/appernetic/hugo-bootstrap-premium)をforkして、自分好みにカスタマイズしました。
+使っているテーマは、[Hugo Themes](https://themes.gohugo.io)の中から見つけた、[hugo-bootstrap-premium](https://github.com/appernetic/hugo-bootstrap-premium)をforkして、自分好みにカスタマイズしたものです。
 
 このブログのテーマは[こちら](https://github.com/knakajima3027/hugo-bootstrap-premium)に置いておきます。
